@@ -2,6 +2,7 @@
 
 This Android app lets you connect an **EEG-SMT** device to your smartphone using a USB OTG adapter and visualize live EEG data in real time.
 
+![Local Neural Monitoring](eeg_smt_android.png)
 ---
 
 ## 📱 APK Installation
