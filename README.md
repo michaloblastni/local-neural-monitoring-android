@@ -1,4 +1,4 @@
-# Local Neural Monitoring for EEG-SMT (Android) 0.0.1
+# Local Neural Monitoring for Android 0.0.1
 
 This Android app lets you connect an **EEG-SMT** device to your smartphone using a USB OTG adapter and visualize live EEG data in real time.
 
@@ -7,7 +7,7 @@ This Android app lets you connect an **EEG-SMT** device to your smartphone using
 
 ## 📱 APK Installation
 
-**➡️ [Download APK (v0.0.1, unsigned)](https://github.com/michaloblastni/local-neural-monitoring-android/releases/download/0.0.1/localneuralmonitoring0.0.1.apk)**
+**➡️ [Download APK (v0.0.1)](https://github.com/michaloblastni/local-neural-monitoring-android/releases/download/0.0.1/localneuralmonitoring0.0.1.apk)**
 
 > ⚠️ This APK is **unsigned**. Installation requires enabling "Unknown sources" on your Android device.
 
@@ -16,17 +16,13 @@ This Android app lets you connect an **EEG-SMT** device to your smartphone using
 ## 🧠 Supported Hardware
 
 - **EEG-SMT** by Olimex  
-- USB connection (CDC Virtual COM over UART)  
-- Sampling rate: 256 Hz  
-- Requires Android device with USB Host support (Android 8.0+ recommended)
+- Android device with USB Host support (Android 8.0+ recommended)
 
 ---
 
 ## 🔌 What You Need
-- EEG-SMT device with USB cable  
-- A **USB OTG adapter or hub**  
-  - Example: [USB-C OTG Adapter](https://www.aliexpress.com/item/1005005445851704.html)
-
+- EEG-SMT device
+- A **USB OTG adapter**, i.e. [USB-C OTG Adapter](https://www.aliexpress.com/item/1005005445851704.html)
 ---
 
 ## 🛠️ Setup Instructions
