@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    <!-- Spinner to select frequency band -->
+    <Spinner
+        android:id="@+id/bandSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/band_names" 
+        android:background="#FFFFFF"/>
+
+    <!-- EEG Graph Area -->
+    <com.acme.localneuralmonitoring.EEGView
+        android:id="@+id/eegPlot"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"/>
+
+    <!-- Status text -->
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Idle"
+        android:padding="4dp"
+        android:background="#EEEEEE"
+        android:textSize="14sp"
+        android:typeface="monospace" />
+
+    <!-- Start/Stop Recording Button -->
+    <Button
+        android:id="@+id/recordButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Recording" />
+
+</LinearLayout>
